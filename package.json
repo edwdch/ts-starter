@@ -1,0 +1,31 @@
+{
+  "name": "pkg-name",
+  "version": "1.0.0",
+  "description": "A starter template for writing TypeScript projects.",
+  "main": "src/index.ts",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "vitest",
+    "coverage": "vitest run --coverage",
+    "start": "tsx src/index.ts",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "keywords": [
+    "TypeScript"
+  ],
+  "author": "Edward Chen <hi@edch.top>",
+  "license": "MIT",
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.36.0",
+    "@types/node": "^18.15.3",
+    "@vitest/coverage-c8": "^0.29.3",
+    "eslint": "^8.36.0",
+    "tsx": "^3.12.5",
+    "typescript": "^5.0.2",
+    "vite": "^4.2.0",
+    "vitest": "^0.29.3"
+  }
+}
